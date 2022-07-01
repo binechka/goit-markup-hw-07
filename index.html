@@ -524,15 +524,14 @@
     <!-- Footer section -->
     <footer class="footer">
       <div class="container">
-        <div class="column-list list">
-          <div class="column-item">
-            <a href="" class="logo"><span class="logo-txt">Web</span>Studio</a>
-
-            <ul class="address-list list">
-              <li>
-                <address class="address">
+        <div class="column list">
+          <div class="column__item">
+            <a href="" class="logo footer__logo"><span class="logo__txt">Web</span>Studio</a>
+            <ul class="navigation list">
+              <li class="navigation__item">
+                <address class="navigation__address">
                   <a
-                    class="address-link link"
+                    class="navigation__link link"
                     href=""
                     target="_blank"
                     rel="noopener noreferrer"
@@ -540,15 +539,15 @@
                   >
                 </address>
               </li>
-              <li>
-                <address class="contact-list list">
+              <li class="navigation__item">
+                <address class="navigation__contacts info">
                   <a
-                    class="footer-contact-link contact-link link"
+                    class="info__link link"
                     href="mailto:info@example.com"
                     >info@example.com</a
                   >
                   <a
-                    class="footer-contact-link contact-link link"
+                    class="info__link link"
                     href="tel:+380991111111"
                     >+38 099 111 11 11</a
                   >
@@ -557,12 +556,12 @@
             </ul>
           </div>
           <!-- Join  -->
-          <div class="column-item join-section">
-            <h2 class="join-title">Присоединяйтесь</h2>
-            <ul class="join-list list">
-              <li class="join-item instagram">
+          <div class="column__item join">
+            <h2 class="join__title">Присоединяйтесь</h2>
+            <ul class="join__list list">
+              <li class="join__item">
                 <a
-                  class="join-link"
+                  class="join__link"
                   href=""
                   target="_blank"
                   rel="noopener noreferrer"
@@ -573,9 +572,9 @@
                   </svg>
                 </a>
               </li>
-              <li class="join-item twitter">
+              <li class="join___item">
                 <a
-                  class="join-link"
+                  class="join__link"
                   href=""
                   target="_blank"
                   rel="noopener noreferrer"
@@ -586,9 +585,9 @@
                   </svg>
                 </a>
               </li>
-              <li class="join-item facebook">
+              <li class="join__item">
                 <a
-                  class="join-link"
+                  class="join__link"
                   href=""
                   target="_blank"
                   rel="noopener noreferrer"
@@ -599,9 +598,9 @@
                   </svg>
                 </a>
               </li>
-              <li class="join-item linkedin">
+              <li class="join__item">
                 <a
-                  class="join-link"
+                  class="join__link"
                   href=""
                   target="_blank"
                   rel="noopener noreferrer"
@@ -614,12 +613,12 @@
               </li>
             </ul>
           </div>
-          <div class="column-item">
-            <form class="footer-form">
+          <div class="column__item subscribe">
+            <form class="subscribe__form">
               <label>
-                <span class="subscribe-title">Подпишитесь на рассылку</span>
+                <span class="subscribe__title">Подпишитесь на рассылку</span>
                 <input
-                  class="subscribe-input"
+                  class="subscribe__input"
                   type="email"
                   name="mail"
                   id="mail"
@@ -627,9 +626,9 @@
                   autocomplete="email"
                 />
               </label>
-              <button class="subscribe-button" type="submit">
+              <button class="subscribe__button" type="submit">
                 Подписаться
-                <svg class="subscribe-icon" width="24" height="24">
+                <svg class="subscribe__icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-subscribe"></use>
                 </svg>
               </button>
@@ -645,80 +644,80 @@
             <use href="./images/close.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
         <form class="form">
-          <label class="form-field">
-            <span class="form-label">Имя</span>
-            <span class="form-holder">
+           <p class="form__title">Оставьте свои данные, мы вам перезвоним</p>
+          <label class="form__field">
+            <span class="form__label">Имя</span>
+            <span class="form__thumb">
             <input
-              class="form-input"
+              class="form__input"
               type="name"
               name="name"
               id="name"
               autocomplete="name"
             />
-            <span class="icon-holder">
-              <svg class="icon" width="18" height="18">
+            <span class="form__holder">
+              <svg class="form__icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-name"></use>
               </svg>
             </span>
             </span>
           </label>
-          <label class="form-field">
-            <span class="form-label">Телефон</span>
-            <span class="form-holder">
+          <label class="form__field">
+            <span class="form__label">Телефон</span>
+            <span class="form__thumb">
             <input
-              class="form-input"
+              class="form__input"
               type="tel"
               name="tel"
               id="tel"
               autocomplete="tel"
             />
-            <span class="icon-holder">
-              <svg class="icon" width="18" height="18">
+            <span class="form__holder">
+              <svg class="form__icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-tel"></use>
               </svg>
             </span>
             </span>
           </label>
-          <label class="form-field">
-            <span class="form-label">Почта</span>
-            <span class="form-holder">
+          <label class="form__field">
+            <span class="form__label">Почта</span>
+            <span class="form__thumb">
             <input
-              class="form-input"
+              class="form__input"
               type="email"
               name="mail"
               id="email"
               autocomplete="email"
             />
-            <span class="icon-holder">
-              <svg class="icon" width="18" height="18">
+            <span class="form__holder">
+              <svg class="form__icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
             </span>
             </span>
           </label>
-          <label class="form-field form-field-comment">
-            <span class="form-label">Комментарий</span>
+          <label class="form__field">
+            <span class="form__label">Комментарий</span>
             <textarea
-              class="comment"
+              class="form__comment"
               name="comment"
               placeholder="Введите текст"
               rows="10"
             ></textarea>
           </label>
-          <label class="checkbox-label">
+          <label class="checkbox">
             <input
-              class="form-input checkbox"
+              class="form__input checkbox__input"
               type="checkbox"
               name="policy"
               id="policy"
             />
-            <span class="checkbox-icon"></span>
-            <span class="form-label-policy"
+            <span class="checkbox__icon"></span>
+            <span class="form__policy"
               >Соглашаюсь с рассылкой и принимаю
               <a
-                class="policy-link"
+                class="form__link"
                 href="https://www.ukrlib.com.ua/books/printit.php?tid=252"
                 >Условия договора</a
               ></span
