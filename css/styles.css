@@ -1,8 +1,8 @@
-:root {
-  /* Fonts */
+ /* :root {
+ 
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-  /* Colors */
+ 
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -17,18 +17,15 @@
   --button-bg-color: #2196f3;
   --button-bg-hover: #188ce8;
   --rectangle-color: #f5f4fa;
-  /* Others */
+  
   --items: 1;
   --indent: 30px;
-}
-
-/* * {
-    outline: 2px solid tomato;
 } */
+
 
 /* Base styles */
 
-body {
+/* body {
   font-family: var(--main-font);
   background-color: var(--primary-bg-color);
   color: var(--title-text-color);
@@ -68,11 +65,11 @@ p {
 
 .link {
   text-decoration: none;
-}
+}  */
 
 /* Header section */
 
-.header {
+/* .header {
   background-color: var(--primary-bg-color);
   border-bottom: 1px solid var(--header-border);
 }
@@ -152,7 +149,7 @@ p {
 
 /* Conatcts */
 
-.contacts {
+/* .contacts {
   display: flex;
   gap: 30px;
   align-items: center;
@@ -193,11 +190,11 @@ p {
 
 .contacts__link:last-child {
   margin-right: 0;
-}
+}  */
 
 /* Hero section */
 
-.hero {
+/* .hero {
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -230,15 +227,15 @@ p {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
+} */
 
 /* Features */
-
+/* 
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/* Visibility */
+
 .features__title {
   position: absolute;
   width: 1px;
@@ -300,11 +297,11 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
+} */
 
 /* Example */
 
-.example {
+/* .example {
   padding-bottom: 94px;
 }
 .example__title {
@@ -358,11 +355,11 @@ p {
   padding-bottom: 27px;
   min-width: 370px;
   color: var(--primary-bg-color);
-}
+} */
 
 /* Team */
 
-.team {
+/* .team {
   background-color: var(--btn-color);
   padding-top: 94px;
   padding-bottom: 94px;
@@ -419,11 +416,11 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 16px;
-}
+} */
 
 /* Social-links */
 
-.social-links {
+/* .social-links {
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -453,11 +450,11 @@ p {
   text-align: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* Customers section */
 
-.customers {
+/* .customers {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -507,12 +504,12 @@ p {
 
 .customers__icon {
   transition: fill 800ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 
 /* Filters */
 
-.filters {
+/* .filters {
   background-color: var(--primary-bg-color);
   padding-top: 94px;
   padding-bottom: 94px;
@@ -530,12 +527,12 @@ p {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 
 /* Button */
 
-.button {
+/* .button {
   display: inline-block;
   background-color: var(--btn-color);
   color: var(--title-text-color);
@@ -601,11 +598,11 @@ p {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-
+ */
 
 /* Projects */
 
-.projects {
+/* .projects {
   --indent: 30px;
   --items: 3;
   display: flex;
@@ -692,11 +689,11 @@ p {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-}
+} */
 
 /* Modal */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -763,11 +760,11 @@ p {
 
 .button-close:hover .close-icon {
   fill: var(--accent-color);
-}
+} */
 
 /* Footer*/
 
-.footer {
+/* .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--footer-bg-color);
@@ -835,11 +832,11 @@ p {
 .info__link:hover,
 .info__link:focus {
   color: var(--accent-color);
-}
+} */
 
 /* Join */
 
-.join {
+/* .join {
   margin-right: 23px;
 }
 .join__title {
@@ -879,9 +876,9 @@ p {
   text-align: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.subscribe__title {
+/* .subscribe__title {
   display: block;
   font-family: var(--main-font);
   font-style: normal;
@@ -1020,7 +1017,6 @@ p {
 .form__field input {
   margin: 0;
   padding: 11px 12px;
-  /* font-family: var(--main-font); */
   letter-spacing: 0.02em;
   font-size: 14px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1135,4 +1131,4 @@ p {
   background-color: var(--button-bg-hover);
   color: var(--btn-color);
 }
-
+ */
